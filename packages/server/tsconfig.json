@@ -1,0 +1,15 @@
+{
+  "ts-node": {
+    "files": true
+  },
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "strict": true,
+    "typeRoots": ["./src/types"],
+    "outDir": "./dist"
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
